@@ -24,3 +24,5 @@ mySum = sum(student_grades.values())
 length = len(student_grades)
 mean = mySum / length
 print(mean)
+
+monday_temperatures = (1, 4, 5)
