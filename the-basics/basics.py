@@ -17,8 +17,10 @@ sum2 = y + y
 print(sum1, sum2)
 print(type(x), type(y), type(z))
 
-student_grades = [9.1, 8.8, 7.5]
-mySum = sum(student_grades)
+monday_temperatures = [9.1, 8.8, 7.5]
+student_grades = {'Marry': 9.1, 'Sim': 8.8, 'John': 7.5}
+
+mySum = sum(student_grades.values())
 length = len(student_grades)
 mean = mySum / length
 print(mean)
