@@ -1,2 +1,8 @@
 import datetime
-print("The date and time is", datetime.datetime.now())
+myNow = datetime.datetime.now()
+print(myNow)
+
+myNumber = 28
+myText = 'Hello'
+
+print(myNumber, myText)
