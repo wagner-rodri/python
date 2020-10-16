@@ -18,3 +18,7 @@ print(sum1, sum2)
 print(type(x), type(y), type(z))
 
 student_grades = [9.1, 8.8, 7.5]
+mySum = sum(student_grades)
+length = len(student_grades)
+mean = mySum / length
+print(mean)
