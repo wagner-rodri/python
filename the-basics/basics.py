@@ -26,3 +26,11 @@ mean = mySum / length
 print(mean)
 
 monday_temperatures = (1, 4, 5)
+sunday_temperatures = [1, 4, 5]
+sunday_temperatures.append(8.5)
+sunday_temperatures.remove(4)
+sunday_temperatures[1:]
+sunday_temperatures[-3:-1]
+
+
+student_grades = {'Marry': 9.1, 'Sim': 8.8, 'John': 7.5}
