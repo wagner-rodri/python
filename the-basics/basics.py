@@ -45,20 +45,21 @@ def mean(value):
 
 print(mean(student_grades))
 
-def foo(temperature):
-    if temperature > 25:
-        return "Hot"
-    elif temperature >= 15 and temperature <= 25:
-        return "Warm"
-    else:
-        return "Cold"
+# def foo(temperature):
+#     if temperature > 25:
+#         return "Hot"
+#     elif temperature >= 15 and temperature <= 25:
+#         return "Warm"
+#     else:
+#         return "Cold"
 
-userInput = input("Enter temperature: ")
+# userInput = input("Enter temperature: ")
 
-print(foo(int(userInput)))
+# print(foo(int(userInput)))
 
-userInput2 = input("Enter your name: ")
-message = 'Hello, %s!' % userInput2
-message2 = f'Hello, {userInput2}!'
-print(message)
-print(message2)
+name = input("Enter your name: ")
+surname = input("Enter your surname: ")
+message3 = 'Hello, %s %s!' % (name, surname)
+message4 = f'Hello, {name} {surname}!'
+print(message3)
+print(message4)
