@@ -35,8 +35,12 @@ sunday_temperatures[-3:-1]
 
 student_grades = {'Marry': 9.1, 'Sim': 9.8, 'John': 7.5}
 
-def mean(myList):
-    theMean = sum(myList) / len(myList)
+def mean(value):
+    if type(value) == dict:
+        theMean = sum(value.values()) / len(value)
+    else:
+        theMean = sum(value) / len(value)
+
     return theMean
 
-print(mean(student_grades.values()))
+print(mean(student_grades))
