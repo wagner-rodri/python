@@ -56,3 +56,9 @@ def foo(temperature):
 userInput = input("Enter temperature: ")
 
 print(foo(int(userInput)))
+
+userInput2 = input("Enter your name: ")
+message = 'Hello, %s!' % userInput2
+message2 = f'Hello, {userInput2}!'
+print(message)
+print(message2)
