@@ -33,4 +33,10 @@ sunday_temperatures[1:]
 sunday_temperatures[-3:-1]
 
 
-student_grades = {'Marry': 9.1, 'Sim': 8.8, 'John': 7.5}
+student_grades = {'Marry': 9.1, 'Sim': 9.8, 'John': 7.5}
+
+def mean(myList):
+    theMean = sum(myList) / len(myList)
+    return theMean
+
+print(mean(student_grades.values()))
