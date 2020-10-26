@@ -44,3 +44,15 @@ def mean(value):
     return theMean
 
 print(mean(student_grades))
+
+def foo(temperature):
+    if temperature > 25:
+        return "Hot"
+    elif temperature >= 15 and temperature <= 25:
+        return "Warm"
+    else:
+        return "Cold"
+
+userInput = input("Enter temperature: ")
+
+print(foo(int(userInput)))
