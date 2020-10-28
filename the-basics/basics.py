@@ -82,6 +82,11 @@
 # for grades in student_grades.keys():
 #     print(grades)
 
-userName = ''
-while userName != 'pypy':
-    userName = input('Enter a username: ')
+# 
+
+while True:
+    username = input('Enter username: ')
+    if username == 'pypy':
+        break
+    else:
+        continue
