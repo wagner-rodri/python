@@ -82,3 +82,6 @@
 # for grades in student_grades.keys():
 #     print(grades)
 
+userName = ''
+while userName != 'pypy':
+    userName = input('Enter a username: ')
