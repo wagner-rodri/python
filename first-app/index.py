@@ -14,4 +14,4 @@ while True:
     else:
         results.append(sentenceMaker(userInput))
 
-print(results)
+print(' '.join(results))
