@@ -93,8 +93,41 @@
 
 # list comprehension
 
-temps = [221, 234, 340, -170, 230]
+# temps = [221, 234, 340, -170, 230]
 
-newTemps = [temp / 10 for temp in temps]
+# newTemps = [temp / 10 for temp in temps]
 
-print(newTemps)
+# print(newTemps)
+
+# list comprehension with if
+
+# temps = [221, 234, 340, -999, 230]
+
+# newTemps = [temp / 10 for temp in temps if temp != -999]
+
+# print(newTemps)
+
+# print(type(3))
+
+# list comprehension with if-else
+
+# temps = [221, 234, 340, -999, 0, 230]
+
+# newTemps = [temp / 10  if temp != -999 else 0 for temp in temps]
+
+# print(newTemps)
+
+a = ['1.2', '2.6', '3.3']
+
+def convertList(array):
+    convertedList = []
+    for value in array:
+        cNumber = float(value)
+        convertedList.append(cNumber)
+    return convertedList
+
+def sumValues(array):
+    soma = sum(convertList(array))
+    return soma
+
+print(sumValues(a))
