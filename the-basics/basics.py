@@ -91,4 +91,10 @@
 #     else:
 #         continue
 
+# list comprehension
 
+temps = [221, 234, 340, -170, 230]
+
+newTemps = [temp / 10 for temp in temps]
+
+print(newTemps)
