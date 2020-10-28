@@ -5,3 +5,13 @@ def sentenceMaker(phrase):
         return '{}?'.format(capitalized)
     else:
         return '{}.'.format(capitalized)
+
+results = []
+while True:
+    userInput = input('Say something: ')
+    if userInput == '/end':
+        break
+    else:
+        results.append(sentenceMaker(userInput))
+
+print(results)
