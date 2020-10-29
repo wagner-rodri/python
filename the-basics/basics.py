@@ -142,3 +142,5 @@
 # def mean(**kwargs):
 #    return args
 
+myFile = open("fruits.txt")
+print(myFile.read())
