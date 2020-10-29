@@ -117,17 +117,28 @@
 
 # print(newTemps)
 
-a = ['1.2', '2.6', '3.3']
+# a = ['1.2', '2.6', '3.3']
 
-def convertList(array):
-    convertedList = []
-    for value in array:
-        cNumber = float(value)
-        convertedList.append(cNumber)
-    return convertedList
+# def convertList(array):
+#     convertedList = []
+#     for value in array:
+#         cNumber = float(value)
+#         convertedList.append(cNumber)
+#     return convertedList
 
-def sumValues(array):
-    soma = sum(convertList(array))
-    return soma
+# def sumValues(array):
+#     soma = sum(convertList(array))
+#     return soma
 
-print(sumValues(a))
+# print(sumValues(a))
+
+# multiples args in function
+
+# def mean(*args):
+#    return args
+
+# multiples args in function with key word args
+
+# def mean(**kwargs):
+#    return args
+
