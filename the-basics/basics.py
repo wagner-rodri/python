@@ -142,5 +142,15 @@
 # def mean(**kwargs):
 #    return args
 
-myFile = open("fruits.txt")
-print(myFile.read())
+# myFile = open("fruits.txt")
+# content = myFile.read()
+# myFile.close()
+
+# with open("files/fruits.txt") as myFile:
+#     content = myFile.read()
+
+# print(content)
+
+# with open("files/vegetables.txt", "w") as myFile:
+#     myFile.write("Tomato")
+
