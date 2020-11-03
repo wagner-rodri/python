@@ -154,3 +154,9 @@
 # with open("files/vegetables.txt", "w") as myFile:
 #     myFile.write("Tomato")
 
+# import time
+
+# while True:
+#     with open("files/fruits.txt") as file:
+#         print(file.read())
+#         time.sleep(1)
