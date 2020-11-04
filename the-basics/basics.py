@@ -154,9 +154,35 @@
 # with open("files/vegetables.txt", "w") as myFile:
 #     myFile.write("Tomato")
 
+# import os
 # import time
 
 # while True:
-#     with open("files/fruits.txt") as file:
-#         print(file.read())
-#         time.sleep(1)
+#     with open("python/the-basics/files/fruits.txt") as filex:
+#         print(filex.read())
+#     time.sleep(1)
+
+# import time
+# import os
+# import pandas
+
+# while True:
+#     if os.path.exists("python/the-basics/files/temps_today.csv"):
+#         data = pandas.read_csv("python/the-basics/files/temps_today.csv")
+#         print(data.mean())
+#     else:
+#         print("File does not exist.")
+
+
+# with open("python/the-basics/files/fruits.txt") as myFile:
+#     content = myFile.read()
+
+
+# print(content)
+# print(content)
+# print(content)
+
+myFile = open('python/the-basics/files/fruits.txt')
+print(myFile.read())
+# myFile.seek(0)
+print(myFile.read())
