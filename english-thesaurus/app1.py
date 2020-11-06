@@ -2,7 +2,7 @@ import json
 
 data = json.load(open("python/english-thesaurus/data.json"))
 
-word = input('Enter a word: ')
+word = input('Enter a word: ').lower()
 
 def translate(word):
     if word in data:
