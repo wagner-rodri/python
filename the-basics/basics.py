@@ -182,7 +182,7 @@
 # print(content)
 # print(content)
 
-myFile = open('python/the-basics/files/fruits.txt')
-print(myFile.read())
-# myFile.seek(0)
-print(myFile.read())
+# myFile = open('python/the-basics/files/fruits.txt')
+# print(myFile.read())
+# # myFile.seek(0)
+# print(myFile.read())
