@@ -13,10 +13,16 @@ def translate(word):
         if yN == 'Y':
             return data[get_close_matches(word, data.keys())[0]]
         elif yN == "N":
-            return ("The word doesn't exist, Please double check it!")
+            return ("The word doesn't exist. Please double check it!")
         else:
             return ("We didn't understand your entry. Please try again!")
     else:
-        return ("The word doesn't exist, Please double check it!")
+        return ("The word doesn't exist. Please double check it!")
 
-print(translate(word))
+output = translate(word)
+
+if type(output) == list:
+    for item in output:
+        print(item)
+else:
+    print(output)
